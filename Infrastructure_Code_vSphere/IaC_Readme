@@ -1,2 +1,3 @@
 This is an infrastructure as a code example which I used in my homelab to provision and deploy the vcenter and 2 ESXi servers. Everything should be automated.
-The deploy_vcsa.json is the template provided by vmware but edited by me and configured to be deployed for my homelab environment. We can directly use this to deploy the vCenter but better way is to use this with terraform to deploy the vCenter. 
+The deploy_vcsa.json is the template provided by vmware but edited by me and configured to be deployed for my homelab environment. 
+We can directly use this to deploy the vCenter but better way is to use this with terraform to deploy the vCenter. 
