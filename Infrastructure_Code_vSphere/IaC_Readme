@@ -1,0 +1,1 @@
+This is an infrastructure as a code example which I used in my homelab to provision and deploy the vcenter and 2 ESXi servers. Everything should be automated.
