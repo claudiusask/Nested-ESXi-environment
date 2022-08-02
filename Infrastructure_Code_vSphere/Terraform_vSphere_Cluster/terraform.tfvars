@@ -1,0 +1,8 @@
+vsphere_server     = "10.0.0.9"
+vsphere_user       = "Administrator@vsphere.local"
+vsphere_password   = "Badfish509"
+vcenter_license    = "MV612-A33DL-48EJ9-KVC7K-9YK42"
+datacenter         = "XZLabDatacenter"
+datastore          = "iSCSI-Datastore"
+cluster            = "XZLabCluster"
+network_name       = "vData"
