@@ -32,7 +32,8 @@ Installation of ESXi:-
 
 iSCSI on both ESXi:-
   - login to the esxi's and do the following on both of the esxi's go to storage -> Adapters -> Software iSCSI -> enable.
-  - Add port binding -> vmk1 and give it another ip different from MGMT I gave .21 for .11 esxi host-1. Similar to this .22 for .12 esxi host-2.
+  - Create another VMKernal nic "vmk1" without any services.
+  - Add port binding in Software iSCSI configuration window -> vmk1 and give it another ip different from MGMT I gave .21 for .11 esxi host-1. Similar to this .22 for .12 esxi host-2.
   - Dynamiz Target -> add Windows Server 2016 IP address, which is .08 in my case.
   - ONLY on one of the ESXi - I did this is esxi-1, Go to datastore and add new datastore and select the 2.5TB HDD which is iSCSI from windows server 2016. Reboot all of the other esxi hosts so the datastore can be added automatically to them aswell. 
 
